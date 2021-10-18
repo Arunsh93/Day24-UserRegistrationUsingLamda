@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "UserRegistrationDay24/1.0.0": {
+        "runtime": {
+          "UserRegistrationDay24.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserRegistrationDay24/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
