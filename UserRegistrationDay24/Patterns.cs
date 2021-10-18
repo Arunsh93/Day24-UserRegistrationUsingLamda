@@ -21,7 +21,7 @@ namespace UserRegistrationDay24
                 if (flag == true)
                     return true;
                 else
-                    return false;
+                    throw new UserRegisrationCustomException(UserRegisrationCustomException.ExceptionType.Invalid_FirstName, "Invalid First Name");
             }
             while (flag == false);
         }
@@ -35,7 +35,7 @@ namespace UserRegistrationDay24
                 if (flag == true)
                     return true;
                 else
-                    return false;
+                    throw new UserRegisrationCustomException(UserRegisrationCustomException.ExceptionType.Invalid_LastName, "Invalid Last Name");
             }
             while (flag == false);
         }
@@ -49,7 +49,7 @@ namespace UserRegistrationDay24
                 if (flag == true)
                     return true;
                 else
-                    return false;
+                    throw new UserRegisrationCustomException(UserRegisrationCustomException.ExceptionType.Invalid_EmailId, "Invalid EmailId");
             }
             while (flag == false);
         }
@@ -63,7 +63,7 @@ namespace UserRegistrationDay24
                 if (flag == true)
                     return true;
                 else
-                    return false;
+                    throw new UserRegisrationCustomException(UserRegisrationCustomException.ExceptionType.Invalid_Password, "Invalid Password");
             }
             while (flag == false);
         }
@@ -77,7 +77,7 @@ namespace UserRegistrationDay24
                 if (flag == true)
                     return true;
                 else
-                    return false;
+                    throw new UserRegisrationCustomException(UserRegisrationCustomException.ExceptionType.Invalid_PhoneNumber, "Invalid Phone Number");
             }
             while (flag == false);
         }
